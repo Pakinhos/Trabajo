@@ -40,6 +40,7 @@ public class Login extends JFrame {
 		
 		try 
 		{
+			int i =0;
 			Conect.conectar();
 			//String sentencia="INSERT INTO Socios (Nombre, Apellidos, Email, Direccion, Localidad, DNI, Telefono, Usuario, Contraseña, Equipo) \r\n"
 			// Conect.ejecutarInsertDeleteUpdate(sentencia);
