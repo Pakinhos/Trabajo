@@ -6,6 +6,7 @@ public class Plaza {
 	private int Numero;
 	private boolean Ocupado;
 	private Vehiculo vehiculo;
+	private String pene;
 	
 	//CONSTRUCTORES
 	public Plaza (int Numero)
@@ -60,6 +61,7 @@ public class Plaza {
 		else 
 		{
 			return null;
+			
 		}
 	}
 	
@@ -73,6 +75,7 @@ public class Plaza {
 		return "Plaza{" + "numero" + Numero + 
 				" ocupada=" + Ocupado + 
 				" vehiculo=" + vehiculo + "}";
+		
 	}
 	
 }
